@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d6b5b0eb72a7a74c9b6bdffad80dbc3, type: 3}
+  m_Name: Enemies Way
+  m_EditorClassIdentifier: 
+  enemiesPrefab: {fileID: 1641637104739891809, guid: 983e7889db4dbc44aae94d08cd447437,
+    type: 3}
+  pathPrefab: {fileID: 3088516425901717019, guid: 6a188167fc8c4eb4fbb3080e70a5667a,
+    type: 3}
+  timeBetweenRespawn: 1
+  spawnRamdomFactor: 0.3
+  numberOfEnemies: 4
+  moveSpeed: 2
